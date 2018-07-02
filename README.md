@@ -2,6 +2,10 @@
 
 > HTTPS Custom Loader for Node.js
 
+# Experimental
+
+It works with Node.js `10.5.0` and is subject for changes at any time
+
 ## How to get started
 
 1. You need to specify `--experimental-modules` flag
