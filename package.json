@@ -1,0 +1,29 @@
+{
+  "name": "node-https-loader",
+  "version": "0.0.0",
+  "description": "Custom HTTPS Loader for Node.js",
+  "main": "node-https-loader.mjs",
+  "scripts": {
+    "test": "node --experimental-modules --loader ./node-https-loader.mjs test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktor-ku/node-https-loader.git"
+  },
+  "keywords": [
+    "node",
+    "loader",
+    "https"
+  ],
+  "author": "Viktor Kuroljov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viktor-ku/node-https-loader/issues"
+  },
+  "homepage": "https://github.com/viktor-ku/node-https-loader#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
