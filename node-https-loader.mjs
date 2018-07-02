@@ -13,7 +13,7 @@ export async function resolve(specifier, parentModuleURL, defaultResolver) {
     return defaultResolver(specifier, parentModuleURL);
   }
 
-  const destDir = `${norm(process.env.NODE_HTTP_MODULES || '/tmp')}/node_http_modules`;
+  const destDir = `${norm(process.env.NODE_HTTPS_MODULES || '/tmp')}/node_http_modules`;
 
   if (!fs.existsSync(destDir)) {
     fs.mkdirSync(destDir);
