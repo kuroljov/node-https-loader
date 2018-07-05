@@ -4,7 +4,7 @@
 
 # Experimental
 
-It works with Node.js `10.5.0` and is subject for changes at any time
+This package is experimental (so does loaders in Node.js) and is subject for a change at any time
 
 ## How to get started
 
